@@ -461,7 +461,7 @@ def geocode(address: str):
 async def menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [KeyboardButton("/dice"), KeyboardButton("/check"), KeyboardButton("/gif")],
-        [KeyboardButton("/event"), KeyboardButton("/map"), KeyboardButton("/my_geo", request_location=True)],
+        [KeyboardButton("/event"), KeyboardButton("/map")],
         [KeyboardButton("/help")],
         [KeyboardButton("/close")]
     ]
