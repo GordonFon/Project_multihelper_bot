@@ -21,6 +21,8 @@
 
 # Установка (Linux)
 
+Примечание: в репозитории отсутствует файл .env с API ключами, вам его придется создавать самостоятельно. Используемые API: API телеграм бота; YANDEX API GEOCODER; YANDEX STATIC API
+
 1. Клонирование репозитория 
 
 ```git clone https://github.com/GordonFon/Project_multihelper_bot [Название папки куда клонируете]```
