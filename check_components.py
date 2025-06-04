@@ -19,7 +19,7 @@ def check_database(db_name):
             cursor.execute("""
                     CREATE TABLE IF NOT EXISTS decode_flag (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        chat_id INTEGER NOT NULL,
+                        chat_id INTEGER NOT NULL UNIQUE,
                         flag INTEGER
                     );
                 """)
